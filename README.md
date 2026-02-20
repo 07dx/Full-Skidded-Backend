@@ -1,6 +1,6 @@
 # Full Skidded Backend 
 ## FUCK U KAUDY 
 
-# I recommed u dont use this, bc is so trash and FULL SKIDDED
+# I recommend u dont use this, bc is so trash and completely SKIDDED
 
 ### srry tzy 
