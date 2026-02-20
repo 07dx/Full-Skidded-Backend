@@ -1,0 +1,105 @@
+{
+    "moderators": ["669373882100351036", "860926740461387846"],
+  "discord": {
+    "bUseDiscordBot": true,
+    "bot_token": "MTMyODg0NTY0NDM5NTE4NDEyOA.GEIfHR.mNwW1nHdl7X99BhS2Sxqan1AQgG6O5DYy8jLW8",
+    "bEnableInGamePlayerCount": true
+  },
+  "mongodb": {
+    "database": "mongodb://127.0.0.1/Reload"
+  },
+    "chat": {
+        "EnableGlobalChat": false
+    },
+
+    "bEnableDebugLogs": false,
+    "bEnableFormattedLogs": false,
+    "bEnableRebootUser": false,
+    "bEnableCrossBans": true,
+
+    "port": 3013, 
+    
+    "Api": {
+      "bApiKey": "Key-7656237846Tzy87655DoNotChangeDueToArena",
+      "reasons": {
+        "Kill": 15,
+        "Win": 15
+      }
+    },
+
+    "Website": {
+      "bUseWebsite": false,
+      "clientId": "your-client-id-here",
+      "clientSecret": "your-client-secret-here",
+      "redirectUri": "http://127.0.0.1:${websiteport}/oauth2/callback",
+      "websiteport": 100
+    },
+
+    "matchmakerIP": "26.165.232.80:4444",
+    "gameServerIP": ["26.165.232.80:7777:playlist_showdownalt_solo", "26.165.232.80:5555:playlist_defaultduo", "26.165.232.80:6666:playlist_defaultsolo"],
+    
+    "bEnableBattlepass": true,
+    "bBattlePassSeason": 12,
+
+    "bEnableOnlyOneVersionJoinable": false,
+    "bVersionJoinable": 2,
+
+    "bUseAutoRotate": true,
+    "bEnableAutoRotateDebugLogs": true,
+    "bEnableDiscordWebhook": true,
+    "bChapterlimit": "2",
+    "bSeasonlimit": "2",
+    "bRotateTime": "21:00",
+    "bExcludedItems": ["CID_VIP_Athena_Commando_M_GalileoGondola_SG", "CID_636_Athena_Commando_M_GalileoGondola_78MFZ", "CID_637_Athena_Commando_M_GalileoOutrigger_7Q0YU", "CID_VIP_Athena_Commando_M_GalileoFerry_SG", "CID_VIP_Athena_Commando_F_GalileoRocket_SG", "CID_568_Athena_Commando_M_RebirthSoldier"],
+    "bItemShopWebhook": "https://discord.com/api/webhooks/1351697085858185216/SyFxqgy63VO6aknwKtfE-IrahEATdyGlVC_95c4sCSth64-Ojzv7ND9CGSa7jrgOHnIh",
+    "bDailyItemsAmount": 6,
+    "bFeaturedItemsAmount": 2,
+
+    "bEnableReports": true,
+    "bReportChannelId": "1338581445509124097",
+
+    "bCompletedSeasonalQuests": true,
+
+    "//": "If 'bEnableSACRewards' is enabled it will give the person who supports a creator a percentage of vbucks based on how much percentage you put in 'bPercentageSACRewards' it will give in vbucks, so if you set '25%' and there is a 1000 item in the shop vbucks will give 250 vbucks to the one who supports a creator",
+    "bEnableSACRewards": true,
+    "bPercentageSACRewards": 1,
+
+    "//": "For 'bRestartTime' use this format: [number][y, M, w, d, h, m, s] so 5m, for Month u need to add the big M not the m",
+    "bEnableAutoBackendRestart": true,
+    "bRestartTime": "10m",
+
+    "//": "If active it will send a message in the channel when the backend goes online",
+    "bEnableBackendStatus": true,
+    "bBackendStatusChannelId": "1343631081429143633",
+
+    "//": "Use HTTPS (For VPS Side Only, Or If You Were To Setup  A Type Record To Your Own Public Adress From Your Domain) (You Also Need To Change The Examples In SSl Folder!)",
+    "bEnableHTTPS": false, "//": "Only Enable if You Have SSL Certificate In The ssl Folder",
+    "ssl": {
+        "cert": "./ssl/example_certificate.crt",
+        "//ca//": "./ssl/example_ca_bundle.crt", "//": "Optional (Only If You Have A CA Bundle from your ssl certificate)",
+        "key": "./ssl/example_private.key"
+    },
+
+    "//": "The Caldera Service is used for newer versions of the game! For see what season are now supported look CalderaService/guids.json and add the version on 'bGameVersion'",
+    "bEnableCalderaService": true,
+    "bGameVersion": "14.60",
+    "bCalderaServicePort": 5000,
+
+    "//": "These are all the events you can add to the game, like the rift in the sky!",
+    "bEnableGeodeEvent": false,
+    "geodeEventStartDate": "2020-01-01T00:00:00.000Z",
+    "bEnableCrackInTheSky": false,
+    "bEnableS4OddityPrecursor": false,
+    "bEnableS4OddityExecution": false,
+    "S4OddityEventStartDate": "2020-01-01T00:00:00.000Z",
+    "S4OddityEventsInterval": 0,
+    "bEnableS5OddityPrecursor": false,
+    "S5OddityPrecursorDate": "2020-01-01T00:00:00.000Z",
+    "bEnableS5OddityExecution": false,
+    "S5OddityExecutionDate": "2020-01-01T00:00:00.000Z",
+    "bEnableCubeLightning": false,
+    "cubeSpawnDate": "2020-01-01T00:00:00.000Z",
+    "bEnableBlockbusterRiskyEvent": false,
+    "bEnableCubeLake": false,
+    "cubeLakeDate": "2020-01-01T00:00:00.000Z"
+}
